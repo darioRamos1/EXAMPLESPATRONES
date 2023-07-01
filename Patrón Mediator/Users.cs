@@ -20,7 +20,7 @@ namespace Patrón_Mediator
             this.name = name;
         }
 
-        public User(string name)
+        public Users(string name)
         {
             this.name = name;
         }

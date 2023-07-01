@@ -8,7 +8,7 @@ namespace Patrón_Mediator
 {
     internal class ChatRoom
     {
-        public static void ShowMessage(User user, string message)
+        public static void ShowMessage(Users user, string message)
         {
             Console.WriteLine(DateTime.Now + " [" + user.GetName() + "] : " + message);
         }
